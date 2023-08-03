@@ -1,0 +1,25 @@
+[GENERAL]
+
+transmutation = Si-4-X  
+Permutation = Si X
+
+distance_scaling = 1.3
+stateDB = 0
+
+[CLUSTER]
+
+base_formula = C24H12
+
+
+base_coumpond = 9115
+#5460726 162459651
+#135083122 129694662 123215709 102006853 101624517
+#22056949 86630467
+[SOFTWARE]
+
+software = gaussian
+core = 10
+memory = 8
+charge_multi = 0 1
+header = am1
+#PBE1PBE/SDDAll scf=(maxcycle=512) opt=(cartesian,maxcycle=512)
